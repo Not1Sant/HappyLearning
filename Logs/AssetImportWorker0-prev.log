@@ -1,0 +1,335 @@
+Unity Editor version:    2022.3.43f1 (85497d293fa1)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.7.6 (Build 21H1320)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/santiago/HappyLearning
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62285
+Successfully changed project path to: /Users/santiago/HappyLearning
+/Users/santiago/HappyLearning
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4781835776]  Target information:
+
+Player connection [4781835776]  * "[IP] 10.0.0.188 [Port] 0 [Flags] 2 [Guid] 2713445942 [EditorId] 2713445942 [Version] 1048832 [Id] OSXEditor(0,Santiagos-MacBook.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [4781835776] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4781835776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 45.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.43f1 (85497d293fa1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/santiago/HappyLearning/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) HD Graphics 515 (low power)
+Metal devices available: 1
+0: Intel(R) HD Graphics 515 (low power)
+Using device Intel(R) HD Graphics 515 (low power)
+Initializing Metal device caps: Intel(R) HD Graphics 515
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56739
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.43f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.43f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.43f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.020660 seconds.
+- Loaded All Assemblies, in  2.722 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 572 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.366 seconds
+Domain Reload Profiling: 6090ms
+	BeginReloadAssembly (955ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (292ms)
+	RebuildNativeTypeToScriptingClass (88ms)
+	initialDomainReloadingComplete (335ms)
+	LoadAllAssembliesAndSetupDomain (1050ms)
+		LoadAssemblies (957ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1033ms)
+			TypeCache.Refresh (1023ms)
+				TypeCache.ScanAssembly (953ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (3369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3034ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1439ms)
+			SetLoadedEditorAssemblies (36ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (21ms)
+			ProcessInitializeOnLoadAttributes (1164ms)
+			ProcessInitializeOnLoadMethodAttributes (374ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.239 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.347 seconds
+Domain Reload Profiling: 11590ms
+	BeginReloadAssembly (1470ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (103ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (320ms)
+	RebuildCommonClasses (417ms)
+	RebuildNativeTypeToScriptingClass (150ms)
+	initialDomainReloadingComplete (348ms)
+	LoadAllAssembliesAndSetupDomain (3855ms)
+		LoadAssemblies (2257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2220ms)
+			TypeCache.Refresh (1992ms)
+				TypeCache.ScanAssembly (1846ms)
+			ScanForSourceGeneratedMonoScriptInfo (132ms)
+			ResolveRequiredComponents (66ms)
+	FinalizeReload (5349ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (211ms)
+			SetLoadedEditorAssemblies (28ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (419ms)
+			ProcessInitializeOnLoadAttributes (2836ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.43f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.51 seconds
+Refreshing native plugins compatible for Editor in 17.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (52.7 KB). Loaded Objects now: 3558.
+Memory consumption went from 229.4 MB to 229.3 MB.
+Total: 18.746534 ms (FindLiveObjects: 2.066905 ms CreateObjectMapping: 1.236584 ms MarkObjects: 15.092181 ms  DeleteObjects: 0.345340 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20082.310399 seconds.
+  path: Assets/AlgunosAssets/seri.png
+  artifactKey: Guid(a3554c178702141d2a854f1a922099d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/seri.png using Guid(a3554c178702141d2a854f1a922099d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '333dc28f8cb61b546c2b41a2dc16f231') in 0.466147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001566 seconds.
+  path: Assets/AlgunosAssets/grass.png
+  artifactKey: Guid(0880ca52a10734acba1e26e5df55fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/grass.png using Guid(0880ca52a10734acba1e26e5df55fd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f5fc368f7630629504f2bf16fa477da4') in 0.047107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001501 seconds.
+  path: Assets/AlgunosAssets/Codiguito.cs
+  artifactKey: Guid(b812c64c807d44cb7893cf9f4447cbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/Codiguito.cs using Guid(b812c64c807d44cb7893cf9f4447cbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '34d6d08882595a52ef0f84fe7054df3b') in 0.002628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007835 seconds.
+  path: Assets/AlgunosAssets/pajarito.fbx
+  artifactKey: Guid(3d7c94d6c5bcd4906bf92f360e285ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/pajarito.fbx using Guid(3d7c94d6c5bcd4906bf92f360e285ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f95897035113728019ea57b01d361737') in 1.424421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.001430 seconds.
+  path: Assets/AlgunosAssets/dialogos seri
+  artifactKey: Guid(218766bc14d29425ba87ecd872e0dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/dialogos seri using Guid(218766bc14d29425ba87ecd872e0dc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3ce123cfef53c1cee7f00ddb76ee145e') in 0.005654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000854 seconds.
+  path: Assets/AlgunosAssets
+  artifactKey: Guid(bfedfc9cf6b824be6926fead5b0f5b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets using Guid(bfedfc9cf6b824be6926fead5b0f5b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dce94fead561c25d148f42f12eed440b') in 0.001486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002435 seconds.
+  path: Assets/AlgunosAssets/astounding first step.wav
+  artifactKey: Guid(a2ece6112fb6446778ffa9b5b644dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/astounding first step.wav using Guid(a2ece6112fb6446778ffa9b5b644dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '451e3f25e5b31cf3b555c7343662a752') in 0.447165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.941882 seconds.
+  path: Assets/AlgunosAssets/dialogos seri/seri01.wav
+  artifactKey: Guid(49c8c8d4dcf9e454f97d15fc6f6fbfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/dialogos seri/seri01.wav using Guid(49c8c8d4dcf9e454f97d15fc6f6fbfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dc29eb869e9ec4ecc191f8df3113fc5f') in 0.025180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/AlgunosAssets/dialogos seri/seri05.wav
+  artifactKey: Guid(653f81054883c493e8ad31384a975528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/dialogos seri/seri05.wav using Guid(653f81054883c493e8ad31384a975528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '77e599dc0bdef0ae80fe6c31a667eef9') in 0.033997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/AlgunosAssets/dialogos seri/seri04.wav
+  artifactKey: Guid(9fa89e084a00c479097b769abe43f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/dialogos seri/seri04.wav using Guid(9fa89e084a00c479097b769abe43f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dd1ffd66f8b6ef54618d65d8cef3001d') in 0.050501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001010 seconds.
+  path: Assets/AlgunosAssets/dialogos seri/seri02.wav
+  artifactKey: Guid(6c954e5c8b767439c960f31e46b8be77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/dialogos seri/seri02.wav using Guid(6c954e5c8b767439c960f31e46b8be77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1bc5faf3a363783ff59db57c5331b3e0') in 0.036745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/AlgunosAssets/dialogos seri/seri03.wav
+  artifactKey: Guid(ecec5fe6efd5a4c308560621567f949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/dialogos seri/seri03.wav using Guid(ecec5fe6efd5a4c308560621567f949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8b8c2459ba68107b1323c5e9cdf7f606') in 0.021956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1401.004822 seconds.
+  path: Assets/AlgunosAssets/seri.png
+  artifactKey: Guid(a3554c178702141d2a854f1a922099d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AlgunosAssets/seri.png using Guid(a3554c178702141d2a854f1a922099d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6585dd38885f257783ced12591af8511') in 0.171835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
